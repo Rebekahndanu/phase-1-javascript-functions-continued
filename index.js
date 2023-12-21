@@ -12,8 +12,7 @@ mondayWork("work from home");
 
 function wrapAdjective(symbol = "*") {
     return function(adjective = 'special') {
-        return `You are ${symbol}${adjective}${symbol}!`;
-        console.log(`${part1} ${symbol}`)
+        return `You are ${symbol}${adjective}${symbol}!`;   
     }
 }
 
